@@ -1,0 +1,27 @@
+
+/* 
+reset
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-content {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: lightcoral;
+    padding: 1.5rem;
+    width: 100%
+}
+
+.aside-content {
+    width: 100px;
+    background-color: lightblue;
+    height:100vh;
+
+}
+
