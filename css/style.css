@@ -9,19 +9,42 @@ reset
     box-sizing: border-box;
 }
 
-.header-content {
+header {
     position: fixed;
     top: 0;
     right: 0;
-    background-color: lightcoral;
-    padding: 1.5rem;
-    width: 100%
+    background-color: lightblue;
+    width: 100%;
 }
 
-.aside-content {
+aside {
     width: 100px;
-    background-color: lightblue;
-    height:100vh;
+    background-color: lightcoral;
 
+}
+
+main {
+    width: calc(100% - 100px);
+    background-color: blueviolet;
+    padding-top: 50px;
+}
+
+
+.main-content {
+    display: flex;
+    
+}
+
+section > main {
+    overflow-y: auto;
+    height: 100vh;
+}
+
+.col-left-center {
+    height: 100vh;
+}
+
+.col-right-center {
+    height: 100vh; 
 }
 
