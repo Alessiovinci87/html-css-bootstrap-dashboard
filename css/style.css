@@ -16,3 +16,11 @@ aside li, a {
 img {
     width: 100%;
 }
+
+.avatar {
+    width: 1.875rem;
+}
+
+aside {
+    background-size: contain ;
+}
