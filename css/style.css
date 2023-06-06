@@ -1,50 +1,18 @@
 
-/* 
-reset
- */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.main-header {
+    height: 3.75rem;
 }
 
-header {
-    position: fixed;
-    top: 0;
-    right: 0;
-    background-color: lightblue;
-    width: 100%;
-}
-
-aside {
-    width: 100px;
-    background-color: lightcoral;
-
-}
-
-main {
-    width: calc(100% - 100px);
-    background-color: blueviolet;
-    padding-top: 50px;
-}
-
-
-.main-content {
-    display: flex;
+.main-section {
+    height: calc(100vh - 3.75rem);
     
 }
 
-section > main {
-    overflow-y: auto;
-    height: 100vh;
+aside li, a {
+    text-decoration: none;
+    list-style: none;
 }
 
-.col-left-center {
-    height: 100vh;
+img {
+    width: 100%;
 }
-
-.col-right-center {
-    height: 100vh; 
-}
-
